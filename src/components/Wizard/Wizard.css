@@ -1,0 +1,39 @@
+.wizard {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+  border-radius: 3px;
+}
+.wizard__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-bottom: 2rem;
+}
+.wizard__label {
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+.wizard__input {
+  border: none;
+  background-color: transparent;
+}
+
+.wizard__input:focus {
+  border: none;
+}
+
+.wizard__button-container {
+  text-align: center;
+}
+
+.wizard__button {
+  margin: 0 auto;
+  padding: 0.5rem 1.2rem;
+  background-color: royalblue;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: seashell;
+}
